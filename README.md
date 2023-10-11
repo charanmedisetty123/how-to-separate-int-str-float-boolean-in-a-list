@@ -1,0 +1,1 @@
+# how-to-separate-int-str-float-boolean-in-a-list
