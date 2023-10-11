@@ -1,0 +1,18 @@
+a=[]
+b=[]
+c=[]
+d=[]
+list1=["dhoni","india",10,50.5,True]
+for x in list1:
+    if(type(x)==int):
+        a.append(x)
+    elif(type(x)==str):
+        b.append(x)
+    elif(type(x)==float):
+        c.append(x)
+    elif(type(x)==bool):
+        d.append(x)
+print("Integer list:  " +str(a))
+print("String List: " + str(b))
+print("float List: " + str(c))
+print("bool List: " + str(d))
